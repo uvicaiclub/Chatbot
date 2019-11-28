@@ -1,0 +1,53 @@
+<!-- 
+test.html 
+for the UVic AI Club website.
+Created by Debrah Wyatt
+Sept 2019
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+    	<!--Document parameters -->
+	    <meta charset="utf-8">
+
+		<title>Chatbot</title>
+
+	</head>
+
+	<body>
+		<br>
+		<h1>This is the test file for our AI Chatbot</h1>
+		<br>
+		<br>
+
+		<div id="response"><br>
+		</div>
+
+		<br>
+		<br>
+
+		<center>
+			<input type="text" name="user_input" id="user_input" onkeydown="keyboardSubmit(event)">
+			<br>
+			<button id="submit">Enter</button>
+			<button id="add">Add Response</button>
+		</center>
+		
+		<!-- ALLOWS THE ENTER KEY TO SUBMIT RESPONSES FROM THE INPUT FIELD -->
+		<script>
+		function keyboardSubmit(event) {
+		  var x = event.keyCode;
+		  if (x == 13) {  // 13 is the return key
+		  	document.getElementById("submit").click();
+		  }
+		}
+		</script>
+		
+    <script src="chatbot/chatbot.js"></script>
+		<br>
+    
+	</body>
+</html>
