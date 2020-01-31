@@ -1,7 +1,7 @@
 /*
 chatbot.js 
-for the UVic AI Club website.
-Created by Debrah Wyatt
+For use with www.uvicaiclub.ca
+Created by the UVic AI Club
 Nov 26, 2019
 */
 
